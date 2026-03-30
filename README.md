@@ -1,7 +1,16 @@
-# NutRL <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-
+    <style>
+        /* Define a cor do título H1 como azul */
+        h1 {
+            color: blue;
+        }
+        /* Define a cor de todos os parágrafos P como verde */
+        p {
+            color: green;
+        }
+    </style>
 </head>
 <body>
     <h1>Site de Nutrição NutRL</h1>
