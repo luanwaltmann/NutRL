@@ -1,0 +1,132 @@
+/* Estilos para o site NutRL */
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8f0; /* Tom de verde suave para saúde */
+    color: #2c3e50;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Div principal que agrupa todo o conteúdo */
+.container-principal {
+    max-width: 1000px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilização do cabeçalho e logo */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #e8f5e9;
+    padding-bottom: 20px;
+}
+
+.logo {
+    font-size: 3rem;
+    color: #27ae60; /* Verde saúde */
+    margin: 0;
+    font-weight: 800;
+}
+
+.logo span {
+    color: #2ecc71; /* Verde mais claro */
+}
+
+/* Organizar imagem e lista lado a lado com flexbox */
+.conteudo-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Ajuste da imagem */
+.imagem-ajustada {
+    width: 350px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Classe para estilizar as listas */
+.lista-estilizada {
+    margin: 20px 0;
+    padding: 0 20px;
+    color: #34495e;
+    line-height: 1.8;
+}
+
+/* Alterar cor do texto e tipo de marcador */
+.lista-estilizada li {
+    margin-bottom: 12px;
+    padding-left: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Marcadores personalizados e efeito hover */
+ul.lista-estilizada {
+    list-style-type: circle;
+}
+
+ol.lista-estilizada {
+    color: #27ae60;
+    font-weight: 600;
+}
+
+/* Efeito hover nos itens */
+.lista-estilizada li:hover {
+    color: #27ae60;
+    transform: translateX(12px);
+    cursor: pointer;
+}
+
+/* Estilização da seção extra */
+.secao-extra {
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #e8f5e9;
+    border-left: 6px solid #27ae60;
+    border-radius: 8px;
+}
+
+.secao-extra h2 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: #27ae60;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #95a5a6;
+}
+
+/* Responsividade básica */
+@media (max-width: 768px) {
+    .conteudo-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .imagem-ajustada {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .lista-estilizada {
+        text-align: left;
+    }
+}
